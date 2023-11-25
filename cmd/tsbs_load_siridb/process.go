@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/SiriDB/go-siridb-connector"
-	"github.com/timescale/tsbs/pkg/targets"
 	"github.com/transceptor-technology/go-qpack"
+	"github.com/yizhuoliang/tsbs/pkg/targets"
 )
 
 type processor struct {

@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/timescale/tsbs/pkg/targets"
+	"github.com/yizhuoliang/tsbs/pkg/targets"
 
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/stdlib"

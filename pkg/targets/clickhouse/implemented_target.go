@@ -3,11 +3,11 @@ package clickhouse
 import (
 	"github.com/blagojts/viper"
 	"github.com/spf13/pflag"
-	"github.com/timescale/tsbs/pkg/data/serialize"
-	"github.com/timescale/tsbs/pkg/data/source"
-	"github.com/timescale/tsbs/pkg/targets"
-	"github.com/timescale/tsbs/pkg/targets/constants"
-	"github.com/timescale/tsbs/pkg/targets/timescaledb"
+	"github.com/yizhuoliang/tsbs/pkg/data/serialize"
+	"github.com/yizhuoliang/tsbs/pkg/data/source"
+	"github.com/yizhuoliang/tsbs/pkg/targets"
+	"github.com/yizhuoliang/tsbs/pkg/targets/constants"
+	"github.com/yizhuoliang/tsbs/pkg/targets/timescaledb"
 )
 
 func NewTarget() targets.ImplementedTarget {

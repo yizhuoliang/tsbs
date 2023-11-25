@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/timescale/tsbs/cmd/tsbs_generate_queries/uses/devops"
-	"github.com/timescale/tsbs/internal/utils"
-	"github.com/timescale/tsbs/pkg/query"
+	"github.com/yizhuoliang/tsbs/cmd/tsbs_generate_queries/uses/devops"
+	"github.com/yizhuoliang/tsbs/internal/utils"
+	"github.com/yizhuoliang/tsbs/pkg/query"
 )
 
 // TODO: Remove the need for this by continuing to bubble up errors

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/timescale/tsbs/cmd/tsbs_generate_queries/uses/devops"
-	"github.com/timescale/tsbs/pkg/query"
+	"github.com/yizhuoliang/tsbs/cmd/tsbs_generate_queries/uses/devops"
+	"github.com/yizhuoliang/tsbs/pkg/query"
 )
 
 func Test_what(t *testing.T) {

@@ -10,7 +10,9 @@
 
 // Supported use cases:
 // devops: scale is the number of hosts to simulate, with log messages
-//         every log-interval seconds.
+//
+//	every log-interval seconds.
+//
 // cpu-only: same as `devops` but only generate metrics for CPU
 package main
 
@@ -23,10 +25,10 @@ import (
 
 	"github.com/blagojts/viper"
 	"github.com/spf13/pflag"
-	"github.com/timescale/tsbs/internal/inputs"
-	"github.com/timescale/tsbs/internal/utils"
-	"github.com/timescale/tsbs/pkg/data/usecases/common"
-	"github.com/timescale/tsbs/pkg/targets/initializers"
+	"github.com/yizhuoliang/tsbs/internal/inputs"
+	"github.com/yizhuoliang/tsbs/internal/utils"
+	"github.com/yizhuoliang/tsbs/pkg/data/usecases/common"
+	"github.com/yizhuoliang/tsbs/pkg/targets/initializers"
 )
 
 var (

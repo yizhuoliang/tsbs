@@ -62,9 +62,9 @@ Clone the TSBS repository, build test and install Go binaries:
 
 ```bash
 git clone git@github.com:questdb/tsbs.git
-cd ~/tmp/go/src/github.com/timescale/tsbs/ && git checkout questdb-tsbs-load-new
+cd ~/tmp/go/src/github.com/yizhuoliang/tsbs/ && git checkout questdb-tsbs-load-new
 GOPATH=~/tmp/go go build -v ./...
-GOPATH=~/tmp/go go test -v github.com/timescale/tsbs/cmd/tsbs_load_questdb
+GOPATH=~/tmp/go go test -v github.com/yizhuoliang/tsbs/cmd/tsbs_load_questdb
 GOPATH=~/tmp/go go install -v ./...
 ```
 
@@ -101,7 +101,7 @@ Alternatively, shell scripts are provided which can be used to generate and load
 data:
 
 ```bash
-cd ~/tmp/go/src/github.com/timescale/tsbs
+cd ~/tmp/go/src/github.com/yizhuoliang/tsbs
 
 # generates data file /tmp/bulk_data/influx-data.gz
 PATH=${PATH}:~/tmp/go/bin FORMATS=influx TS_END=2016-01-01T02:00:00Z bash ./scripts/generate_data.sh

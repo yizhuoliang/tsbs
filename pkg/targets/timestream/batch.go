@@ -1,8 +1,8 @@
 package timestream
 
 import (
-	"github.com/timescale/tsbs/pkg/data"
-	"github.com/timescale/tsbs/pkg/targets"
+	"github.com/yizhuoliang/tsbs/pkg/data"
+	"github.com/yizhuoliang/tsbs/pkg/targets"
 	"sync"
 )
 

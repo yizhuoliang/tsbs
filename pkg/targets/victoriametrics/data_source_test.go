@@ -3,7 +3,7 @@ package victoriametrics
 import (
 	"bufio"
 	"bytes"
-	"github.com/timescale/tsbs/pkg/data"
+	"github.com/yizhuoliang/tsbs/pkg/data"
 	"sync"
 	"testing"
 )

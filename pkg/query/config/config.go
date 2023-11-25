@@ -3,8 +3,8 @@ package config
 import (
 	"fmt"
 	"github.com/spf13/pflag"
-	"github.com/timescale/tsbs/internal/utils"
-	"github.com/timescale/tsbs/pkg/data/usecases/common"
+	"github.com/yizhuoliang/tsbs/internal/utils"
+	"github.com/yizhuoliang/tsbs/pkg/data/usecases/common"
 )
 
 const ErrEmptyQueryType = "query type cannot be empty"

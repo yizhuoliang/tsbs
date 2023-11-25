@@ -7,9 +7,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/timescale/tsbs/pkg/data"
-	"github.com/timescale/tsbs/pkg/data/usecases/common"
-	"github.com/timescale/tsbs/pkg/targets"
+	"github.com/yizhuoliang/tsbs/pkg/data"
+	"github.com/yizhuoliang/tsbs/pkg/data/usecases/common"
+	"github.com/yizhuoliang/tsbs/pkg/targets"
 )
 
 type fileDataSource struct {

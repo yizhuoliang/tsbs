@@ -10,15 +10,15 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/aws/aws-sdk-go/service/timestreamquery"
-	"github.com/timescale/tsbs/pkg/targets/timestream"
+	"github.com/yizhuoliang/tsbs/pkg/targets/timestream"
 	"time"
 
 	"github.com/blagojts/viper"
 	_ "github.com/jackc/pgx/v4/stdlib"
 	_ "github.com/lib/pq"
 	"github.com/spf13/pflag"
-	"github.com/timescale/tsbs/internal/utils"
-	"github.com/timescale/tsbs/pkg/query"
+	"github.com/yizhuoliang/tsbs/internal/utils"
+	"github.com/yizhuoliang/tsbs/pkg/query"
 )
 
 // Program option vars:
